@@ -1,4 +1,4 @@
-import { useState } from "react";
+import ParticlesBackground from './components/ParticlesBackground';
 import "./App.css";
 import About from "./components/about/About";
 import Header from "./components/header/Header";
@@ -12,7 +12,9 @@ function App() {
       <main className="main">
         <Home />
         <About />
+    <ParticlesBackground>
         <Skills />
+    </ParticlesBackground>
       </main>
     </div>
   );
