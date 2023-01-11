@@ -98,13 +98,13 @@ const particlesConfig = {
       "push": {
         "default": true,
         "groups": [],
-        "quantity": 4
+        "quantity": 1
       },
       "remove": {
         "quantity": 2
       },
       "repulse": {
-        "distance": 100,
+        "distance": 80,
         "duration": 0.4,
         "factor": 100,
         "speed": 1,
