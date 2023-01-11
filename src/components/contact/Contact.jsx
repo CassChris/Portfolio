@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 import "./contact.css";
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_9a77kbr",
+        "template_99qhnnd",
+        form.current,
+        "3HUfImge4yOMjq0y-"
+      )
+      e.target.reset();
+  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -15,9 +32,7 @@ const Contact = () => {
               <i className="bx bxl-gmail contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
-                correo@gmail.com
-              </span>
+              <span className="contact__card-data">correo@gmail.com</span>
 
               <a
                 href="mailito:christiancasafrancarocha@gmail.com"
@@ -61,7 +76,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
-          <form className="contact__form">
+          <form className="contact__form" ref={form} onSubmit={sendEmail}>
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
@@ -113,7 +128,6 @@ const Contact = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-        
             </button>
           </form>
         </div>
