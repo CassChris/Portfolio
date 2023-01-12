@@ -1,12 +1,9 @@
 {
-  "homepage": "http://CassChris.github.io/Portfolio",
   "name": "portafolio-2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

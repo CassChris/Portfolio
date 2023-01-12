@@ -14,8 +14,8 @@ import Work from "./components/work/Work";
 function App() {
   return (
     <div className="App">
-        <ParticlesBackground/>
       <Header />
+        <ParticlesBackground/>
       <main className="main">
         <Home />
           <About />

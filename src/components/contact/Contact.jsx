@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Escrébame un mensaje</h3>
+          <h3 className="contact__title">Escríbame un mensaje</h3>
 
           <form className="contact__form" ref={form} onSubmit={sendEmail}>
             <div className="contact__form-div">

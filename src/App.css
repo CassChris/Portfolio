@@ -6,22 +6,20 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* --hue: 0;
-  --sat: 0%; */
-  /* --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%); */
-  /* --container-color: #fff; */
 
-  /* --title-color: #333333; */
-  --title-color: #222;
+  /* --title-color: #222;
   --title-color-dark: #000000;
-  /* --text-color: #757575; */
   --text-color: #454545;
   --body-color: #fafafa;
-  --container-color: #fff;
+  --container-color: #fff; */
+
+    /* invertidos */
+  --title-color: #eee;
+  --title-color-dark: #ECB365;
+  --text-color: #fafafa;
+  --body-color: #04293A;
+  --container-color: #04293a9f;
+
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;

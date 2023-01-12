@@ -1,9 +1,11 @@
 
+import '../../App.css'
+
 const particlesConfig = {
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#fafafa"
+      "value": "#1B2430",
     },
     "image": "",
     "position": "",
