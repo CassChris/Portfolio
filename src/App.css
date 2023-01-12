@@ -15,9 +15,11 @@
   --body-color: hsl(var(--hue), var(--sat), 98%); */
   /* --container-color: #fff; */
 
-  --title-color: #333333;
+  /* --title-color: #333333; */
+  --title-color: #222;
   --title-color-dark: #000000;
-  --text-color: #757575;
+  /* --text-color: #757575; */
+  --text-color: #454545;
   --body-color: #fafafa;
   --container-color: #fff;
 

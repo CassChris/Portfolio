@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Frontend = () => {
+const OtherTools = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Frontend</h3>
+        <h3 className="skills__title">Adicionales</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -11,8 +11,8 @@ const Frontend = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">HTML</h3>
-                    <span className="skills__level">Avanzado</span>
+                    <h3 className="skills name">Figma</h3>
+                    <span className="skills__level">Básico</span>
                 </div>
                 </div>
 
@@ -20,7 +20,7 @@ const Frontend = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">CSS</h3>
+                    <h3 className="skills name">Git</h3>
                     <span className="skills__level">Intermedio</span>
                 </div>
                 </div>
@@ -29,7 +29,7 @@ const Frontend = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">Javascript</h3>
+                    <h3 className="skills name">GitHub</h3>
                     <span className="skills__level">Intermedio</span>
                 </div>
                 </div>
@@ -40,19 +40,31 @@ const Frontend = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">Bootstrap</h3>
-                    <span className="skills__level">Intermedio</span>
+                    <h3 className="skills name">CoralDraw</h3>
+                    <span className="skills__level">Básico</span>
                 </div>
                 </div>
-                
+
                 <div className="skills__data">
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">React</h3>
-                    <span className="skills__level">Intermedio</span>
+                    <h3 className="skills name">Adobe Photoshop</h3>
+                    <span className="skills__level">Básico</span>
                 </div>
                 </div>
+
+                <div className="skills__data">
+                <i className='bx bx-badge-check' ></i>
+
+                <div>
+                    <h3 className="skills name">Adobe Animate</h3>
+                    <span className="skills__level">Básico</span>
+                </div>
+                </div>
+                
+
+
             </div>	
 
 
@@ -61,4 +73,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend
+export default OtherTools

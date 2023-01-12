@@ -44,7 +44,8 @@
 /* Activar LINK */
 .active-link,
 .nav__link:hover{
-    color: goldenrod;
+    color: var(--title-color-dark);
+
 }
 
 /* Change background header */

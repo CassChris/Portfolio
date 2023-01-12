@@ -10,19 +10,19 @@ const Footer = () => {
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
-              About
+              Sobre mí
             </a>
           </li>
 
           <li>
             <a href="#portfolio" className="footer__link">
-              Projects
+              Proyectos
             </a>
           </li>
 
           <li>
             <a href="#portfolio" className="footer__link">
-              Portfolio
+              Portafolio
             </a>
           </li>
         </ul>
@@ -51,7 +51,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className="footer__copy"> &#169; CassChris. All rigths reserved </span>
+        <span className="footer__copy">Todos los derechos reservados ©2023 Christian Casafranca.</span>
       </div>
     </div>
   );
