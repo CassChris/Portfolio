@@ -29,6 +29,7 @@
     margin-bottom: var(--mb-0-25);
 }
 
+
 .home__hand{
     width: 38px;
     height: 38px;
@@ -42,6 +43,11 @@
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
+
+.home__subtitle span{
+    padding-left: 0.5rem;
+}
+
 
 .home__subtitle:before{
     content: '';
@@ -149,7 +155,7 @@
 
     .home__description{
         min-width: initial;
-        margin-bottom: var(--mb-0-25);
+        margin-bottom: var(--mb-1);
     }
 
     .home__img{
