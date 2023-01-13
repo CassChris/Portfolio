@@ -157,10 +157,15 @@ img {
 .button {
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--container-color);
+  color: var(--body-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: .2s;
+}
+
+.button:active {
+  transform: scale(.9);
 }
 
 .button:hover {
