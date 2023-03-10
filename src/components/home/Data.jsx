@@ -10,7 +10,7 @@ const Data = () => {
         <Typical
           loop={Infinity}
           wrapper="span"
-          steps={["Desarrollador Web 💻", 2000, "Técnico Informático 🖱️", 2000]}
+          steps={["Desarrollador Fullstack 💻", 2000, "Técnico Informático 🖱️", 2000]}
         />
       </h3>
       <p className="home__description">
