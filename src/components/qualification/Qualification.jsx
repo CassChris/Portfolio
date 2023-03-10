@@ -95,6 +95,22 @@ const Qualification = () => {
             <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
 
 
+            <div className="qualification__data">
+
+                    <div>
+                        <h3 className="qualification__title">Desarrollador FullStack</h3>
+                        <span className="qualification__subtitle">AMG Alarcon Management Group</span>
+                        <div className="qualification__calender">
+                            <i className="uil uil-calendar-alt"></i> Ene. 2023 - Actualidad
+                        </div>
+                    </div>
+                    <div>
+                        <span className="qualification__rounder"></span>
+                        <span className="qualification__line"></span>
+                    </div>
+
+                </div>
+
                 <div className="qualification__data">
                 <div></div>
                     <div>

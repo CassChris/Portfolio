@@ -3,7 +3,7 @@ import React from 'react'
 const OtherTools = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Adicionales</h3>
+        <h3 className="skills__title">Otras Herramientas</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -29,8 +29,8 @@ const OtherTools = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">GitHub</h3>
-                    <span className="skills__level">Intermedio</span>
+                    <h3 className="skills name">Vuex</h3>
+                    <span className="skills__level">Básico</span>
                 </div>
                 </div>
             </div>	
@@ -49,7 +49,7 @@ const OtherTools = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">Adobe Photoshop</h3>
+                    <h3 className="skills name">SCRUM</h3>
                     <span className="skills__level">Básico</span>
                 </div>
                 </div>
@@ -58,7 +58,7 @@ const OtherTools = () => {
                 <i className='bx bx-badge-check' ></i>
 
                 <div>
-                    <h3 className="skills name">Adobe Animate</h3>
+                    <h3 className="skills name">Notion</h3>
                     <span className="skills__level">Básico</span>
                 </div>
                 </div>

@@ -15,8 +15,8 @@ const Data = () => {
       </h3>
       <p className="home__description">
         <span>
-          Soy Desarrollador Web con experiencia trabajando como desarrollador
-          Frontend y con amplios conocimientos de Backend, egresado de la
+          Soy Desarrollador FullStack con experiencia trabajando como desarrollador
+          de Software con amplios conocimientos de Frontend y Backend, egresado de la
           carrera técnica de Computación e Informática.
         </span>
       </p>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/cv-chrisitan-casafranca.pdf";
+import CV from "../../assets/cv-christian-casafranca.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -22,22 +22,22 @@ const About = () => {
 
           <p className="about__description">
             <span>
-              Hola me llamo Christian Casafranca y soy Desarrollador Web con
-              experiencia trabajando como desarrollador Frontend y con amplios
-              conocimientos de Backend, egresado de la carrera técnica de
-              Computación e Informática.
+              Hola me llamo Christian Casafranca y soy Desarrollador FullStack 
+              con experiencia trabajando como desarrollador de Software con
+              amplios conocimientos de Frontend y Backend, egresado de la
+              carrera técnica de Computación e Informática.
             </span>
 
             <span>
               He desarrollador varios proyectos como autodidacta, trabajado como
-              freelancer y mi última experiencia fue colaborar como
-              desarrollador Frontend en la creación de un E-commerce para una
-              empresa, utilizando React y otras tecnologías.
+              freelancer, colaborado como desarrollador Frontend en la creación
+              de un E-commerce y actualmente laboro como desarrollador Fullstack
+              en el Desarrollo y optimización de un sistema ERP.
             </span>
 
             <span>
-              En el proceso de mejorar profesionalmente busco integrarme y
-              colaborar con proyectos relacionados con el desarrollo web,
+              En el proceso de mejorar profesionalmente busco 
+              colaborar con proyectos grandes y retadores relacionados con el desarrollo web,
               desarrollo de software, TI o afines.
             </span>
           </p>
